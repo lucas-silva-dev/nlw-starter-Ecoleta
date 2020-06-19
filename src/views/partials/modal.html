@@ -1,0 +1,21 @@
+<div id="modal" class="hide">
+  <div class="content">
+    <div class="header">
+      <button id="closeButton" type="button">
+        <img src="./assets/x.svg" alt="Fechar" />
+      </button>
+    </div>
+
+    <form action="/search">
+      <select name="uf" required>
+        <option required value="">Selecione o estado</option>
+      </select>
+      <input type="hidden" name="state" />
+
+      <select name="city" disabled required>
+        <option value="">Selecione a cidade</option>
+      </select>
+      <button type="submit">Buscar</button>
+    </form>
+  </div>
+</div>
